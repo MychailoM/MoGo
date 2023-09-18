@@ -1,0 +1,129 @@
+:root{
+    --logo-color:#95E1D3;
+    --title-color:#333333;
+    --text-color:#B6B6B6;
+    --hover-color:#F38181;
+}
+
+ul{list-style: none;}
+
+a{text-decoration: none;}
+
+body{
+    margin: 0 auto;
+    width: 1200px;
+    border: 2px solid red;
+}
+
+    /* 
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+     */
+        
+
+     /* header */
+.logo{
+    color: var(--logo-color);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}  
+
+.navigation-item{
+    color: var(--logo-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navigation-item:hover,
+.navigation-item:focus{
+    color: var(--hover-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.slogon{
+    color: var(--title-color);
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--hover-color);
+}
+
+.card-title{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-text{
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;   
+}
+
+.our-team-text{
+    color: var(--text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.worker-name{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profesion{
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;   
+}
+
+.foot-text{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Laaqiq{
+    color: var(--hover-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.foot-btn{
+    background-color: var(--logo-color);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
