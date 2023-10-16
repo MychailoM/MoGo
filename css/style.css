@@ -11,7 +11,7 @@ ul{list-style: none;}
 
 body{
     margin: 0 auto;
-    border: 2px solid red;
+    
 }
 
 
@@ -21,6 +21,10 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 }
+
+    a{
+        text-decoration: none;
+    }
 
     /* 
     font-family: 'Kaushan Script', cursive;
@@ -37,6 +41,8 @@ body{
 
 .header-wrap{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
     
 .logo{
@@ -48,6 +54,8 @@ body{
 
 .navigation-list{
     display: flex;
+    justify-content: space-between;
+    gap: 55px;
 }
 
 .navigation-item{
@@ -63,6 +71,8 @@ body{
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
+    border-bottom:  3px solid var(--hover-color);
+    padding-bottom: 10px;
 }
 
 .span-wrap{
@@ -95,8 +105,24 @@ body{
     margin: 0 auto;
 }
 
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card{
+    display: flex;
+}
+
+.card-container{
+    
+}
+
 .card-img{
     margin-right: 18px;
+    width: 37px;
+    height: 37px;
 }
 
 .card-title{
@@ -116,6 +142,7 @@ body{
 
 .our-team-list{
     display: flex;
+    justify-content: space-between;
 }
 
 .our-team-text{
@@ -128,12 +155,14 @@ body{
 }
 
 .our-team-card{
-    margin: 30px;
+    
     width: 380px;
 }
 
 .our-team-img{
     margin-bottom: 30px;
+    width: 380px;
+    height: 470px;
 }
 
 .work{
@@ -190,7 +219,12 @@ body{
 
 .footer-container{
     border-top: 1px solid var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 
 .foot-btn{
     background-color: var(--logo-color);
