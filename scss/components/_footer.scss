@@ -1,0 +1,45 @@
+.footer__text {
+    color: $titleColor;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer__Laaqiq {
+    color: $hoverColor;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__container {
+    border-top: 1px solid $textColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.footer__btn {
+    background-color: $logoColor;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px 38px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+
+.footer__input {
+    padding: 8px 145px 8px 10px;
+}

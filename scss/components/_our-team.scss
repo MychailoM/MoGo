@@ -1,0 +1,53 @@
+.our__team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our__team-text {
+    color: var(--text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 27px;
+    padding-top: 50px;
+}
+
+.our__team-card {
+
+    width: 380px;
+}
+
+.our__team-img {
+    margin-bottom: 30px;
+    width: 380px;
+    height: 470px;
+}
+
+.our__team-name {
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.our__team {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.our__team-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.our__team-profesion {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
